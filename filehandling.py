@@ -1,0 +1,8 @@
+fruits = ["mango", "apple" "grapes", "orange", "guyabano"]
+
+with open('fruits.txt', 'w' ) as new:
+        for a in fruits:
+            new.write("%s\n" %a)
+
+file = open('fruits.txt')
+print(file.read())
